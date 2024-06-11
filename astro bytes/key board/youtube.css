@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(138, 14, 14);
+}
+.a{
+    width: 360px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 25px;
+}
+.aa{
+    width: 0;
+        height: 0;
+        border-left: 50px solid transparent; 
+        border-right: 50px solid transparent; 
+        border-bottom: 100px solid rgb(227, 227, 236); 
+        border-radius: 25px;
+        rotate: 90deg;
+    
+}

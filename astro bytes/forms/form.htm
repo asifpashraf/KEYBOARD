@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <div class="main">
+    <div class="container">
+        <h1>registration form</h1><hr>
+        <div>
+            <form action="/forms/forlogin.html">
+                <label for="name" id="name" class="word">name</label> :
+            <input type="text" value="" required placeholder="name">
+        </div>
+        <div>
+        <label for="email" id="email" class="word">email</label> :
+    <input type="email" value="" required placeholder="asifpa@gmail.com">
+        </div>
+        <div>
+        <label for="number" id="number" class="word">Number</label> :
+    <input type="number" required placeholder="0987654321">
+        </div>
+        <div>
+        <label for="password" id="password" class="word">password</label> : 
+    <input type="password" required placeholder="********">
+        </div>
+        <div>
+            <label for="gender" class="word">gender</label> :
+            <!-- <select name="gender" id="gender">
+                <option value="female">female</option>
+                <option value="male">male</option>
+            </select> -->
+            <input type="radio" name="gender" value="male">
+            <label for="gender">male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="gender">female</label>
+        </div>
+        <div>
+            <label for="country" class="word">country</label> :
+            <select name="country" id="country">
+                <option value="india">india</option>
+                <option value="usa">usa</option>
+                <option value="Africa">africa</option>
+                <option value="japan">japan</option>
+            </select>
+        </div><hr>
+        <div>
+        <center><button type="submit">register</button>
+        <button type="reset">reset</button></center>
+        </div>
+    
+        </form>
+    </div>
+   </div>
+</body>
+</html>

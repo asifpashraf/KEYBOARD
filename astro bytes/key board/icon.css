@@ -1,0 +1,21 @@
+.ico{
+    background-color: peachpuff;
+width: 100px;
+height: 200px;
+margin: 64px;
+padding: 14px;
+font-size: 10px;
+border-right: 8px solid black;
+border-top: 4px solid black;
+border-bottom: 12px double black;
+border-left: 30px solid black;
+}
+.ic2{
+    width: 100px;
+    height: 200px;
+    font-size: 10px;
+border-right: 8px solid black;
+border-top: 4px solid black;
+border-bottom: 12px double black;
+border-left: 30px solid black;
+}
