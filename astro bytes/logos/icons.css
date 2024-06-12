@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.submain{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    justify-content: space-around;
+     align-items: center;
+}
+.submain2{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    justify-content: space-around;
+     align-items: center;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    justify-content: space-around;
+     align-items: center;
+}
+.eyes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eye{
+    width: 20px;
+    height: 20px;
+    background: green;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.mouth{
+    width: 40px;
+    height: 20px;
+    border:2px solid red;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.mouth2{
+    width: 40px;
+    height: 20px;
+    border:2px solid red;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
