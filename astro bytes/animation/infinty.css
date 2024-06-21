@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    /* border-top: 16px dotted greenyellow; */
+    border-radius: 50%;
+    border: 16px dotted lightgreen;
+    box-shadow: 10px 10px 10px greenyellow;
+    animation: glow 4s linear 1s infinite reverse ;
+}
+@keyframes glow{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.1);
+    }
+}
